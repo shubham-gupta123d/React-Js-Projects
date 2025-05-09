@@ -1,0 +1,132 @@
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210829/pngtree-nature-landscape-with-purple-sky-and-mountain-illustration-image_773300.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px 25px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.login-container input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #e0e0e0;
+}
+
+.login-container .options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 15px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.login-container .options a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+}
+
+.login-container .options a:hover {
+  text-decoration: underline;
+}
+
+.login-container .register-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-container .register-link a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
